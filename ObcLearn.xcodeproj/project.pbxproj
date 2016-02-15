@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049B34931C720883000021A3 /* Hydrogen.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B34921C720883000021A3 /* Hydrogen.m */; };
 		04A185C21C71424F00DB4878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A185C11C71424F00DB4878 /* main.m */; };
+		04A185CA1C7146AF00DB4878 /* Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A185C91C7146AF00DB4878 /* Atom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		049B34911C720883000021A3 /* Hydrogen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hydrogen.h; sourceTree = "<group>"; };
+		049B34921C720883000021A3 /* Hydrogen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hydrogen.m; sourceTree = "<group>"; };
 		04A185BE1C71424F00DB4878 /* ObcLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObcLearn; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A185C11C71424F00DB4878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A185C81C7146AF00DB4878 /* Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
+		04A185C91C7146AF00DB4878 /* Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Atom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				04A185C11C71424F00DB4878 /* main.m */,
+				04A185C81C7146AF00DB4878 /* Atom.h */,
+				04A185C91C7146AF00DB4878 /* Atom.m */,
+				049B34911C720883000021A3 /* Hydrogen.h */,
+				049B34921C720883000021A3 /* Hydrogen.m */,
 			);
 			path = ObcLearn;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A185CA1C7146AF00DB4878 /* Atom.m in Sources */,
 				04A185C21C71424F00DB4878 /* main.m in Sources */,
+				049B34931C720883000021A3 /* Hydrogen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +249,7 @@
 				04A185C71C71424F00DB4878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
